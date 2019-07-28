@@ -1,0 +1,23 @@
+{
+    "name": "wenhsing/hello",
+    "description": "wenhsing's hello project",
+    "keywords": [
+        "wenhsing",
+        "hello"
+    ],
+    "homepage": "http://wenhsing.com",
+    "author": [
+        {
+            "name": "wenhsing",
+            "email": "1807926695@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wenhsing\\": "src/"
+        }
+    }
+}
